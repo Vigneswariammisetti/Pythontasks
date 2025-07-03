@@ -38,18 +38,18 @@
 #         uppercount+=1
 # print(lowercount,uppercount)
 
-
-# def check_char(char):
-#     code=ord(char)
-#     if(code>=97 and code<=122):
-#         print("lowercase char:",chr(code))
-#     elif(code>=65 and code<=90):
-#         print("uppercase char:",chr(code))
-#     elif(code>=48 and code<=57):
-#         print("number:",char)
-#     else:
-#         print("it's not a character,number,it may be special symbol")
-# check_char("9")
+#checking the character is lowercase or uppercase or number
+def check_char(char):
+    code=ord(char)
+    if(code>=97 and code<=122):
+        print("lowercase char:",chr(code))
+    elif(code>=65 and code<=90):
+        print("uppercase char:",chr(code))
+    elif(code>=48 and code<=57):
+        print("number:",char)
+    else:
+        print("it's not a character,number,it may be special symbol")
+check_char("9")
 
 #function to convert vowel character into next character(vigneswari-vjgnfswbrj)
 def code_decode(word):
